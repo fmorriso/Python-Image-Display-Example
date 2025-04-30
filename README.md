@@ -1,5 +1,6 @@
 # Python Image Display Example
-Example of how to display a .jpg image in Python using PySide6 for the GUI.
+Example of how to display a .jpg image in Python using PySide6 for the GUI scaled
+to a user-defined percentage of available device width and height.
 
 ## Usage Notes:
 
