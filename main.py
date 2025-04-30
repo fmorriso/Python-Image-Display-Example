@@ -34,5 +34,6 @@ if __name__ == '__main__':
     print(f'Python version: {get_python_version()}')
     print(f'PySide6 version: {get_package_version("pyside6")}')
     print(f'PyAutoGUI version: {get_package_version("pyautogui")}')
+    print(f'python-dotenv version: {get_package_version("python-dotenv")}')
 
     main()

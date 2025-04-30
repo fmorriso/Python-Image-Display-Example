@@ -11,13 +11,14 @@ to a user-defined percentage of available device width and height.
  
 ## Tools Used
 
-| Tool      |  Version |
-|:----------|---------:|
-| Python    |   3.13.3 |
-| PyAutoGUI |   0.9.54 |
-| PySide6   |    6.9.0 |
-| PyCharm   | 2025.1.0 |
-| VSCode    |   1.99.0 |
+| Tool          |  Version |
+|:--------------|---------:|
+| Python        |   3.13.3 |
+| PyAutoGUI     |   0.9.54 |
+| PySide6       |    6.9.0 |
+| Python-dotenv |    1.1.0 |
+| PyCharm       | 2025.1.0 |
+| VSCode        |   1.99.0 |
 
 ## Change History
 
@@ -26,4 +27,10 @@ to a user-defined percentage of available device width and height.
 | 2025-04-30 | Initial creation |
 
 ## References
-* []()
+
+* [PySide6 official documentation](https://doc.qt.io/qtforpython-6/)
+* [PySide6 tutorials](https://doc.qt.io/qtforpython-6/tutorials/index.html)
+* [PySide6 examples](https://doc.qt.io/qtforpython-6/examples/index.html)
+* [PySide6 examples on PyPL](https://pypi.org/project/PySide6-Examples/)
+* [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/)
+* [PyAutoGUI Tutorial](https://www.pythoncentral.io/pyautogui-tutorial-how-to-automate-gui-tasks-with-python/0)
