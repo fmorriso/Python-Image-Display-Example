@@ -22,9 +22,10 @@ to a user-defined percentage of available device width and height.
 
 ## Change History
 
-| Date       | Description      |
-|:-----------|:-----------------|
-| 2025-04-30 | Initial creation |
+| Date       | Description                                          |
+|:-----------|:-----------------------------------------------------|
+| 2025-04-30 | Initial creation                                     |
+| 2025-05-01 | Make fetch of screen scaling percentage more robust. |
 
 ## References
 
