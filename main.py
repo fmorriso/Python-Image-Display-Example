@@ -23,7 +23,7 @@ def main():
     gui_settings = GuiSettings(pct_scaling)
 
     image_path = ProgramSettings.get_setting('IMAGE_FILE_PATH')
-    title = f'Image Display Example using Python {get_python_version()} and PySide6 {get_package_version("pyside6")}'
+    title = f'Image Display Example using Python {get_python_version()}, PySide6 {get_package_version("pyside6")}, PyAutoGUI {get_package_version("pyautogui")}'
     window = ImageWindow(image_path, title, gui_settings.scaled_width, gui_settings.scaled_height)
 
     window.show()
