@@ -1,11 +1,10 @@
-from PySide6.QtCore import Qt
+from PIL import Image
 from PySide6.QtGui import QPixmap, QImage
 from PySide6.QtWidgets import QLabel, QWidget, QVBoxLayout
-from PIL import Image
 
 
 class ImageWindow(QWidget):
-    def __init__(self, image_file_path: str, title: str = '', width=640, height=480) -> None:
+    def __init__(self, image_file_path: str, title: str = '', width = 640, height = 480) -> None:
         super().__init__()
         self.setWindowTitle(title)
 
@@ -23,6 +22,7 @@ class ImageWindow(QWidget):
 
         # Resize window to fit the image
         self.resize(width, height)
+
 
     @staticmethod
     def get_image(image_file_path: str, width: int, height: int) -> QPixmap:
