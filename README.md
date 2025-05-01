@@ -4,7 +4,12 @@ to a user-defined percentage of available device width and height.
 
 ## Usage Notes:
 
-1.  Make sure you have installed all of the packages mentioned in the _*requirements.txt*_ file.
+1.  Make sure you have installed all the packages mentioned in the _*requirements.txt*_ file.
+    If you are using a virtual environment and run into permission errors, one solution after setting up the python virtual environment
+    that worked for me is as follows:
+    ```text
+    pip install --no-cache-dir -r requirements.txt
+    ```
 1.  Create a `.env` file with the following entries, modified for your specific situation:
     1. IMAGE_FILE_PATH='c:\sample pictures\Penguins.jpg'
     1. WINDOW_SCALE_PCT=40.0
