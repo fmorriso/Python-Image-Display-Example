@@ -14,6 +14,7 @@ to a user-defined percentage of available device width and height.
 | Tool          |  Version |
 |:--------------|---------:|
 | Python        |   3.13.3 |
+| pillow        |   11.2.1 | 
 | PyAutoGUI     |   0.9.54 |
 | PySide6       |    6.9.0 |
 | Python-dotenv |    1.1.0 |

@@ -26,6 +26,8 @@ def get_window_scale_pct() -> float:
     return pct
 
 
+
+
 def main():
     app = QApplication(sys.argv)
 
@@ -47,5 +49,6 @@ if __name__ == "__main__":
     print(f'PySide6 version: {get_package_version("pyside6")}')
     print(f'PyAutoGUI version: {get_package_version("pyautogui")}')
     print(f'python-dotenv version: {get_package_version("python-dotenv")}')
+    print(f'pillow version: {get_package_version("pillow")}')
 
     main()
